@@ -32,7 +32,5 @@ class AuthServiceProvider extends ServiceProvider
         // Gate::define('delete-attendee', function ($user, Event $event, Attendee $attendee) {
         //     return $user->id === $event->user_id || $user->id === $attendee->user_id;
         // });
-
-        
     }
 }
